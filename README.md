@@ -25,7 +25,7 @@ There are (will be) an array of different similarity classes you can use:
 ```ruby
 ids_a = [1, 2, 3, 4]
 ids_b = [1, 2, 4]
-Statly::Similarity::Jacard.coefficient(ids_a, ids_b) # => 0.75
+Statly::Similarity::Jaccard.coefficient(ids_a, ids_b) # => 0.75
 ```
 
 ## Contributing
