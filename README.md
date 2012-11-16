@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There are (will be) an array of different similarity classes you can use:
+
+### Jaccard Index
+
+```ruby
+ids_a = [1, 2, 3, 4]
+ids_b = [1, 2, 4]
+Statly::Similarity::Jacard.coefficient(ids_a, ids_b) # => 0.75
+```
 
 ## Contributing
 
