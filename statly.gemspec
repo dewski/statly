@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Statly::VERSION
   gem.authors       = ['Garrett Bjerkhoel']
   gem.email         = ['me@garrettbjerkhoel.com']
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A library of different similarity equations, maybe more.}
+  gem.summary       = %q{A library of different similarity equations, maybe more.}
   gem.homepage      = ''
 
   gem.files         = `git ls-files`.split($/)
